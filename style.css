@@ -71,7 +71,7 @@ body {
     padding-bottom: 1rem;
 }
 
-/* .contact-info { border-bottom: 2px solid #1B2631; } */
+/*.contact-info { border-bottom: 2px solid #1B2631; }*/
 .left-title {
     color: #000000;
     font-size: 20px;
@@ -81,10 +81,12 @@ body {
     display: flex;
     align-items: center;
     padding-top: 3rem;
+    padding: 20px;
 }
 
 .contact-info ul {
     padding-top: 1.5rem;
+    padding: 20px;
 }
 
 .contact-info ul li,
@@ -106,6 +108,7 @@ body {
 
 .skills ul {
     padding-top: 1.5rem;
+    padding: 20px;
 }
 .skills ul li p {
     padding: .4rem 0;
@@ -114,6 +117,14 @@ body {
     letter-spacing: 1px;
     display: flex;
     align-items: center;
+    text-transform: uppercase;
+}
+.referance-name {
+    padding-top: 1.5rem;
+    padding-bottom: .4rem;
+    font-size: 18px;
+    color: #F9E79F;
+    letter-spacing: 1px;
     text-transform: uppercase;
 }
 
@@ -125,7 +136,6 @@ body {
     letter-spacing: 1px;
     text-transform: uppercase;
 }
-
 .referance-profession {
     font-size: 16px;
     color: #d6dbdfaf;
